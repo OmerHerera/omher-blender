@@ -1,0 +1,62 @@
+const images = [
+  {
+    imageUrl:
+      "https://res.cloudinary.com/omher/image/upload/v1636455564/blender/Apples_twodxd.jpg"
+  },
+  {
+    imageUrl:
+      "https://res.cloudinary.com/omher/image/upload/v1636455563/blender/Warehouse_spj62u.jpg",
+  },
+  {
+    imageUrl:
+      "https://res.cloudinary.com/omher/image/upload/v1636455563/blender/Boba_ffu2l8.jpg",
+  },
+  {
+    imageUrl:
+      "https://res.cloudinary.com/omher/image/upload/v1636455563/blender/deadpool_vhdncy.jpg",
+  },
+  {
+    imageUrl:
+      "https://res.cloudinary.com/omher/image/upload/v1636455563/blender/Pears_hvvpbo.jpg",
+  },
+  {
+    imageUrl:
+      "https://res.cloudinary.com/omher/image/upload/v1636455563/blender/HumanVsRobot_xkw4ph.jpg",
+  },
+  {
+    imageUrl:
+      "https://res.cloudinary.com/omher/image/upload/v1636455563/blender/onoh_hc6myz.jpg",
+  },
+  {
+    imageUrl:
+      "https://res.cloudinary.com/omher/image/upload/v1636454908/blender/donout0_o8gw9j.jpg",
+  },
+  {
+    imageUrl:
+      "https://res.cloudinary.com/omher/image/upload/v1636454908/blender/donout_qvjfao.jpg",
+  },
+  {
+    imageUrl:
+      "https://res.cloudinary.com/omher/image/upload/v1636454589/blender/Car_low_poly_gor3du.png",
+  },
+  {
+    imageUrl:
+      "https://res.cloudinary.com/omher/image/upload/v1636454267/blender/pickup_ujh0n4.png",
+  },
+  {
+    imageUrl:
+      "https://res.cloudinary.com/omher/image/upload/v1636454266/blender/Rocket_xsd8s8.png",
+  },
+  {
+    imageUrl:
+      "https://res.cloudinary.com/omher/image/upload/v1636454264/blender/Cotagge_s5xxac.png",
+  },
+  {
+    imageUrl:
+      "https://res.cloudinary.com/omher/image/upload/v1636454262/blender/Floating_r9fosf.png",
+  },
+
+];
+export default function handler(req, res) {
+  res.status(200).json({ images });
+}
